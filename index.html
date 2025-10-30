@@ -20,6 +20,7 @@
     <!-- social media icons -->
     <link rel="stylesheet" href="https://cdn.lineicons.com/5.0/lineicons.css" />
     <title>Slaying The Dragon</title>
+    <script src="./src/main.js" type="module"></script>
   </head>
   <body>
     <header class="header container">
@@ -33,7 +34,7 @@
             />
             <span class="header__title">Slaying The Dragon</span>
         </div>
-      <button class="header__bars" aria-label="menu button">
+      <button id="bars-btn" class="header__bars" aria-label="menu button">
         <svg
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
@@ -99,8 +100,8 @@
     </header>
     <main>
         <!-- mobile nav -->
-         <div class="mobile-nav">
-          <button class="mobile-nav__close-btn">Close</button>
+         <div class="mobile-nav" id="mobile-nav">
+          <button class="mobile-nav__close-btn" id="close-btn">Close</button>
            <img
               src="./public/logo.png"
               alt="Girl holding a cup"
@@ -165,6 +166,5 @@
         <!-- <section></section> -->
     </main>
     <footer></footer>
-    <div style="height: 500vh"></div>
   </body>
 </html>
