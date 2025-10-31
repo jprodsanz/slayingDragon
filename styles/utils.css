@@ -39,6 +39,14 @@
     margin-top: 5rem;
 }
 
+.title {
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-family: var(--font-secondary);
+    color: var(--clr-text);
+    font-size: var(--size-xs);
+}
+
 /* mobile */
 /* xs */
 @media (min-width: 475px) {
@@ -51,6 +59,9 @@
     .container {
         max-width: 640px;
     }
+    .title {
+        font-size: var(--size-sm);
+    }
 }
 /* md */
 @media (min-width: 768px) {
@@ -62,6 +73,9 @@
 @media (min-width: 1024px) {
     .container {
         max-width: 1024px;
+    }
+    .title {
+        font-size: var(--size-base);
     }
 }
 /* xl */
