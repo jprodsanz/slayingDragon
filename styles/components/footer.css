@@ -1,0 +1,9 @@
+.footer__description {
+    font-size: var(--size-xs);
+    color: var(--clr-muted);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    user-select: none;
+
+}
